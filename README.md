@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project
 
-## Getting Started
+**CAD-EX-site**
+This is a simple two-page website that includes a main page, a contact page with a form, and a basic backend that can respond based on the form data.
 
-First, run the development server:
+## Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[Project demo on Vercel](https://yourprojectname.vercel.app)
+
+## STACK
+
+- **Programming language** TypeScript
+- **Frontend/Fullstack**: Next.js, React, Tailwind CSS
+- **Libraries**: React Hook Form, React Spinners, Shadcn/ui, React Lite YouTube Embed, Lucide React
+- **Deploy**: Vercel
+- **Package manager**: Bun
+
+## Functional
+
+- **Feedback Form**: The user can send their contact details and message through the form.
+- **Form State Management & Validation**: Uses React Hook Form (useForm) to manage state using register & setting up simple custom input field validation.
+- **API for processing form data**: The form sends data to the `/api/contact` API, which processes the request and returns a message.
+- **Global page "404 - Not Found"**: Handler for all invalid routes. If the user enters a non-existent page address, a custom page is displayed with an error message & a button that leads to the main page.
+
+## API
+
+### Endpoint
+
+- `POST /api/contact` - accepts form data sent from the frontend and returns a successful submission message.
+
+### Example request:
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "message": "Hello! I'd like to get in touch."
+}
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Example response
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+{
+  "message": "Thank you for your message, John Doe! Hello! I'd like to get in touch."
+}
+```
 
-## Learn More
+## Deploy
 
-To learn more about Next.js, take a look at the following resources:
+- This project is deployed on Vercel. With each push to the `main` branch, the deployment is automatically updated.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Установка и запуск проекта
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Предварительные требования
 
-## Deploy on Vercel
+- Make sure you have `Bun`, `Node.js` and `Git` installed.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Локальный запуск
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone repo:
+   ```bash
+   git clone https://github.com/yourusername/yourprojectname.git
+   cd your project name
+   ```
+2. Install dependencies using Bun: `bun install`
+
+3. Start project: `bun run dev`
+
+## Additional information
+
+- **_Contact Page_**: After submitting the form, the page refreshes to display the user's message.
+- **_"Go Main Page"_** button: After submitting the form, the user sees a button to return to the home page.
