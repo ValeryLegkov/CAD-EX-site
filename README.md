@@ -9,7 +9,7 @@ This is a simple two-page website that includes a main page, a contact page with
 
 ## STACK
 
-- **Programming language** TypeScript
+- **Programming language**: TypeScript
 - **Frontend/Fullstack**: Next.js, React, Tailwind CSS
 - **Libraries**: React Hook Form, React Spinners, Shadcn/ui, React Lite YouTube Embed, Lucide React
 - **Deploy**: Vercel
@@ -51,15 +51,15 @@ This is a simple two-page website that includes a main page, a contact page with
 
 - This project is deployed on Vercel. With each push to the `main` branch, the deployment is automatically updated.
 
-## Установка и запуск проекта
+## Installation and launch of the project
 
-### Предварительные требования
+### Prerequisites
 
 - Make sure you have `Bun`, `Node.js` and `Git` installed.
 
-### Локальный запуск
+### Local start
 
-1. Clone repo:
+1. clone the repository:
    ```bash
    git clone https://github.com/yourusername/yourprojectname.git
    cd your project name
