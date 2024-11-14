@@ -10,7 +10,7 @@ export function MostImportantInfo() {
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-serif font-bold tracking-tight">
             Most Important Info
           </h2>
-          <p className="text-md md:text-lg text-muted-foreground leading-relaxed max-w-xl">
+          <p className="text-md md:text-xl leading-relaxed max-w-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum a
             soluta suscipit impedit sed nesciunt doloremque enim saepe
             blanditiis eum perspiciatis doloribus eaque aspernatur, velit

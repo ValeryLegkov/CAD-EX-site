@@ -27,7 +27,7 @@ export default function Home() {
           content="https://example.com/twitter-image.jpg"
         />
       </Head>
-      <MainContent />;
+      <MainContent />
     </>
   );
 }
