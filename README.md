@@ -5,7 +5,7 @@ This is a simple two-page website that includes a main page, a contact page with
 
 ## Demo
 
-[Project demo on Vercel](https://yourprojectname.vercel.app)
+[Project demo on Vercel](https://cad-ex-site.vercel.app/)
 
 ## STACK
 
