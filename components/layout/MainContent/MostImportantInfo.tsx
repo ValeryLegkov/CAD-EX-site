@@ -7,9 +7,9 @@ export function MostImportantInfo() {
     <section className="bg-secondary p-8 w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="space-y-4">
-          <h2 className="text-2xl md:text-3xl lg:text-5xl font-serif font-bold tracking-tight">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-serif font-bold tracking-tight">
             Most Important Info
-          </h2>
+          </h1>
           <p className="text-md md:text-xl leading-relaxed max-w-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum a
             soluta suscipit impedit sed nesciunt doloremque enim saepe
